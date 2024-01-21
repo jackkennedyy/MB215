@@ -1,0 +1,5 @@
+sweater_qty = float(input("How many sweaters did you purchase? ")) ###inputs amount of product 1 purchased
+sweater_amt = sweater_qty * 20 ###determines total with given amount
+shoes_qty = float(input("How many pairs of shoes did you purchase? ")) ###inputs amount of product 2 purchased
+shoes_amt = shoes_qty * 40 ###determines total with given amount
+print(f"Product\tQty\tPrice\nSweater\t{sweater_qty}\t${sweater_amt}\nShoes\t{shoes_qty}\t${shoes_amt}") ###prints purchase summary for consumer
